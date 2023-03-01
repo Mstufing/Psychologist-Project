@@ -9,7 +9,7 @@
 .main-container{
     width: 1440px;
     height: 4706px;
-    background-color: brown;
+    /* background-color: brown; */
     border: 2px solid blueviolet;
     margin: auto;
     position: relative;
@@ -18,24 +18,23 @@
 .header-main-container{
     width: 1288px;
     height: 680px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: goldenrod;
+    /* position: absolute; */
+    margin: auto;
+    /* background-color: goldenrod; */
 }
 
 /* Nav Bar Section */
 
 .nav-bar-main-container{
-    width: 1288px;
+    width: 842px;
     height: 100px;
-    background-color: dimgray;
+    /* background-color: dimgray; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .nav-bar-left-section{
-   width: 40%;
+   width: 424px;
    display: flex;
    justify-content: space-between;
    align-content: center;
@@ -50,16 +49,159 @@
     align-content: center;
     align-items: center;
  }
- 
+
+ .nav-bar-left-section ul li{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 20px;
+    color: #49362B;
+ }
 
 .nav-bar-right-section{
-    width: 20%;
+    width: 257px;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
 .nav-bar-right-section .date-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
+}
+
+.nav-bar-right-section .date-div h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 34px;
+    color: #49362B;
+}
+
+.nav-bar-right-section .date-div h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 20px;
+    color: #49362B;
+}
+
+.nav-bar-right-section .date-div h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 21px;
+    color: #49362B;
+}
+
+.inner-header-bottom-div{
+    width: 1288px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.inner-header-bottom-div .inner-header-left-section,
+.inner-header-bottom-div .inner-header-right-section{
+    /* margin: auto; */
+    width: 35%;
+}
+.inner-header-bottom-div .inner-header-middle-section{
+    width: 405px;
+}
+
+/* Inner Header Left Section */
+
+.inner-header-left-section h2{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 62px;
+    color: #49362B;
+    margin-top: 64px;
+}
+
+.inner-header-left-section h3{
+    /* width: 358px; */
+    font-size: 35px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 42px;
+    color: #49362B;
+    margin: 40px 0;
+    opacity: 0.5;
+}
+
+.inner-header-left-section button{
+   width: 245px;
+   height: 60px;
+   background-color: #3C725A;
+   border: none;
+   margin-top: 40px;
+   cursor: pointer;
+}
+
+.inner-header-left-section button span{
+    color: #FDFBFB;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 22px;
+ }
+
+ /* Inner Header Middle Section */
+
+.inner-header-middle-section img{
+    border-radius: 4px;
+}
+
+/* Inner Header Right Section */
+
+.inner-header-right-section-top-div{
+    width: 364px;
+    height: 200px;
+    background-color: #C8D8D1;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 88px;
+    margin-top: 80px;
+}
+
+.inner-header-right-section-top-div p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: montserrat;
+    font-style: italic;
+    line-height: 23px;
+    padding: 30px 25px;
+}
+
+.inner-header-right-section-bottom-div{
+    width: 203px;
+    margin-left: 25px;
+}
+
+.inner-header-right-section-bottom-div ul{
+    list-style: none;
+}
+
+.inner-header-right-section-bottom-div ul li{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 7px;
+    color: #49362B;
+}
+
+.inner-header-right-section-bottom-div ul li span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 21px;
 }
