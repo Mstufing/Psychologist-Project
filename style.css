@@ -9,18 +9,8 @@
 .main-container{
     width: 1440px;
     height: 4706px;
-    /* background-color: brown; */
     border: 2px solid blueviolet;
     margin: auto;
-    position: relative;
-}
-
-.header-main-container{
-    width: 1288px;
-    height: 680px;
-    /* position: absolute; */
-    margin: auto;
-    /* background-color: goldenrod; */
 }
 
 /* Nav Bar Section */
@@ -28,7 +18,6 @@
 .nav-bar-main-container{
     width: 842px;
     height: 100px;
-    /* background-color: dimgray; */
     display: flex;
     justify-content: space-between;
 }
@@ -97,12 +86,21 @@
     color: #49362B;
 }
 
-.inner-header-bottom-div{
+/* Header Section */
+
+.header-main-container{
     width: 1288px;
-    /* height: 500px; */
+    height: 680px;
+    margin: auto;
+    margin: 0 153px;
+    /* background-color: goldenrod; */
+    background: linear-gradient(to right, white 50%, #dcf0e8 50%);
+}
+
+.inner-header-bottom-div{
+    width: 1135px;
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
 }
 
 .inner-header-bottom-div .inner-header-left-section,
@@ -112,6 +110,7 @@
 }
 .inner-header-bottom-div .inner-header-middle-section{
     width: 405px;
+    height: 530px;
 }
 
 /* Inner Header Left Section */
@@ -156,6 +155,8 @@
  /* Inner Header Middle Section */
 
 .inner-header-middle-section img{
+    width: 405px;
+    height: 530px;
     border-radius: 4px;
 }
 
@@ -205,3 +206,38 @@
     font-family: montserrat;
     line-height: 21px;
 }
+
+/* Second Page */
+
+.second-page-main-container{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+}   
+
+.second-page-main-container .about-me-h1-div{
+    width: 211px;
+    margin: 218px 154px 245px 153px; 
+}
+
+.second-page-main-container .about-me-h1-div h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 62px;
+    color: #49362B;
+}
+
+.second-page-main-container .about-me-paragraph-div{
+    width: 769px;
+    margin: 80px 153px 79px 0;
+}
+
+.second-page-main-container .about-me-paragraph-div p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 22px;
+    color: #49362B;
+}
+    
