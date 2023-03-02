@@ -241,3 +241,127 @@
     color: #49362B;
 }
     
+/* Third Page */
+
+.third-page-main-container{
+    width: 1105px;
+    height: 595px;
+    margin-left: 153px;
+    margin-right: 183px;
+    margin-bottom: 90px;
+}
+
+.third-page-main-container h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 62px;
+    color: #49362B;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+
+.inner-third-page-div{
+    width: 1105px;
+    height: 505px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-third-page-left-section,
+.inner-third-page-middle-section,
+.inner-third-page-right-section{
+    width: 358px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 5, 0.25);
+}
+
+.inner-third-page-left-section img,
+.inner-third-page-middle-section img,
+.inner-third-page-right-section img{
+    width: 210px;
+    height: 150px;
+}
+
+.inner-third-page-left-section h3,
+.inner-third-page-middle-section h3,
+.inner-third-page-right-section h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 28px;
+    color: #49362B;
+    text-align: center;
+    /* margin: 35px 0; */
+}
+
+.inner-third-page-left-section p,
+.inner-third-page-middle-section p,
+.inner-third-page-right-section p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 21px;
+    text-align: center;
+    /* margin-bottom: 30px; */
+}
+
+.inner-third-page-left-section button{
+    width: 245px;
+    height: 60px;
+    background-color: #C8D8D1;
+    border: none;
+    cursor: pointer;
+}
+
+.inner-third-page-middle-section button,
+.inner-third-page-right-section button{
+    width: 245px;
+    height: 60px;
+    background-color: #3C725A;
+    border: none;
+    cursor: pointer;
+}
+
+.inner-third-page-left-section button span,
+.inner-third-page-middle-section button span,
+.inner-third-page-right-section button span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 22px;
+    color: white;
+}
+
+/* Fourth Page */
+
+.fourth-page-main-container{
+    width: 1440px;
+    position: relative;
+}
+
+.fourth-page-main-container img{
+    width: 1440px;
+    height: 746px;
+}
+
+.fourth-page-main-container .pause-button-div{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 645px;
+    top: 298px;
+}
+
+.fourth-page-main-container .pause-button-div img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
