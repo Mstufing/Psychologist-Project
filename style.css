@@ -8,7 +8,7 @@
 
 .main-container{
     width: 1440px;
-    height: 4706px;
+    /* height: 4706px; */
     border: 2px solid blueviolet;
     margin: auto;
 }
@@ -365,3 +365,218 @@
     cursor: pointer;
 }
 
+/* Fifth Page */
+
+.fifth-page-main-container{
+    width: 1134px;
+    height: 476px;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fifth-page-main-container h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 62px;
+    text-align: center;
+}
+
+.inner-fifth-page-div{
+    width: 1134px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.fifth-page-paragraph-div{
+    width: 940px;
+    height: 300px;
+    position: relative;
+    background-color:  rgba(60, 114, 90, 0.1);;
+}
+
+.fifth-page-paragraph-div p{
+    width: 880px;
+    height: 160px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 62px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 21px;
+}
+
+.fifth-page-paragraph-div h3{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 24px;
+    color: #49362B;
+}
+
+.fifth-page-paragraph-div h2{
+    position: absolute;
+    bottom: 30px;
+    left: 407px;
+    color: #49362B;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 22px;
+}
+
+/* Sixth Page */
+
+.sixth-page-main-container{
+    width: 1134px;
+    height: 811px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixth-page-main-container h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 62px;
+    color: #49362B;
+}
+
+.inner-sixth-page-div{
+    width: 1134px;
+    height: 694px;
+}
+
+.first-question-div{
+    width: 1134px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.first-question-div p{
+    width: 16px;
+    font-weight: 400;
+    font-family: montserrat;
+    line-height: 21px;
+    color: #49362B;
+}
+
+.first-question-div h3{
+    width: 1067px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 24px;
+    color: #49362B;
+}
+
+.first-question-div img{
+    width: 24pxpx;
+    height: 14px;
+}
+
+.question-second{
+    width: 1134px;
+}
+
+.second-question-div{
+    width: 1134px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.second-question-div h3{
+    width: 1067px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 24px;
+    color: #49362B;
+}
+
+.second-question-div img{
+    width: 24pxpx;
+    height: 14px;
+}
+
+
+/* Seventh Page */
+
+.seventh-page-main-container{
+    width: 1440px;
+    height: 344px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.inner-seventh-page-left-div{
+    width: 327px;
+    height: 291px;
+}
+
+.inner-seventh-page-right-div{
+    width: 40%;
+    height: 344px;
+}
+
+.inner-seventh-page-right-div h1{
+    width: 388px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: philosopher;
+    line-height: 39px;
+    color: #49362B;
+    margin-top: 30px;
+}
+
+.inner-seventh-page-right-div h3{
+    width: 550px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 31px;
+    color: #49362B;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+
+.inner-seventh-page-right-div button{
+    width: 245px;
+    height: 60px;
+    background-color: #3C725A;
+    border: none;
+    cursor: pointer;
+}
+
+.inner-seventh-page-right-div button span{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: montserrat;
+    line-height: 22px;
+    color: white;
+}
